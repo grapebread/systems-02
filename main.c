@@ -17,7 +17,7 @@ int main(void)
     // strings well kinda
     char cx[85] = "According to all known laws of aviation, there is no way a bee should be able to fly.";
     printf("%s\n", cx);
-    char *cy = "According to all known laws of aviation, there is no way a bee should be able to fly.";
+    char *cy = "According to all known laws of aviation, there is no way a bee should be able to fly .";
     printf("%s\n", cy); // pointer version
 
     // pointers and stuff
